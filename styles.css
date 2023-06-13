@@ -1,7 +1,21 @@
 :root {
-
+    --purple: rgba(128, 0, 128, 0.432);
 }
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#timer {
+    align-items: end;
+}
+
+main {
+    text-align: center;
+}
+
+#quiz {
+    display: none;
 }
